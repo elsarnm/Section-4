@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas Js Syntax</title>
+</head>
+<body>
+    <h3>Variable Pertama</h3>
+    <p id="number"></p>
+
+    <hr>
+    <h3>Variable Kedua</h3>
+    <p id="string"></p>
+
+    <hr>
+    <h3>Penjumlahan var1 + var2</h3>
+    <p id="variable"></p>
+
+    <hr>
+    <h3>Penjumlahan dengan variable ketiga</h3>
+    <p id="aritmathic"></p>
+
+    <script>
+        document.getElementById('number').innerHTML = 10;
+        document.getElementById('string').innerHTML = 'saya belajar javascript';
+    </script>
+    <script>
+        let var1, var2;
+        var1 = 10;
+        var2 = ' saya belajar javascript';
+        document.getElementById('variable').innerHTML = var1 + var2;
+    </script>
+    <script>
+        let v1, v2, v3;
+        v1 = 10;
+        v2 = 'saya belajar javascript ';
+        v3 = 'x';
+        document.getElementById('aritmathic').innerHTML = v2 + v1 + v3;
+    </script>
+</body>
+</html>
